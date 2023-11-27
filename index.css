@@ -408,3 +408,118 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+    .header {
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .home {
+        padding: 70px 5% 0;
+    }
+
+    .home-content {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        margin: 20px 0 40px;
+    }
+    .btn {
+        width: 100%;
+        max-width: 200px;
+        margin: 0.5em auto;
+    }
+
+    .btn::before,
+    .btn::after {
+        border-radius: 20px;
+    }
+
+    .home-sci a {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .home-sci a::before {
+        border-radius: 30px;
+    }
+
+    .home-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .home-img .glowing-circle::after {
+        width: 280px;
+        height: 280px;
+    }
+
+    .glowing-circle span {
+        border-radius: 30%;
+    }
+
+    .glowing-circle .image {
+        width: 280px;
+        height: 280px;
+    }
+
+    .image img {
+        max-width: 250px;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .about-text h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
